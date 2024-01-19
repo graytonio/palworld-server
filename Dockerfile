@@ -1,4 +1,4 @@
-FROM steamcmd/steamcmd:ubuntu-22.04
+FROM steamcmd/steamcmd:ubuntu-22
 
 ## Create User
 RUN adduser --disabled-password --gecos "User" palworld && \
