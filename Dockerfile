@@ -1,4 +1,4 @@
-FROM steamcmd/steamcmd:ubuntu-22
+FROM ghcr.io/gameservermanagers/linuxgsm:ubuntu-22.04
 
 RUN steamcmd +login anonymous +app_update 2394010 validate +quit
 
